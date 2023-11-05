@@ -1,5 +1,9 @@
-public class LinkedList{
-    public static void main(String[] args){
-        System.out.print("Hello world");
+class Node{
+    int data;
+    Node next;
+
+    public Node(int data){
+        this.data=data;
+        this.next=null;
     }
 }
